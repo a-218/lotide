@@ -42,12 +42,19 @@ const middle = function(array) {
 };
 
 
-middle([1]);// => []
-middle([1, 2]); //=> []
-middle([1, 2, 3]); // => [2]
-middle([1, 2, 3, 4, 5]); // => [3]
-middle([1, 2, 3, 4]);// => [2, 3]
-middle([1, 2, 3, 4, 5, 6, 7, 8, 9, 11]); // => [3, 4]
+// middle([1]);// => []
+// middle([1, 2]); //=> []
+// middle([1, 2, 3]); // => [2]
+// middle([1, 2, 3, 4, 5]); // => [3]
+// middle([1, 2, 3, 4]);// => [2, 3]
+// middle([1, 2, 3, 4, 5, 6, 7, 8, 9, 11]); // => [3, 4]
 
-assertArraysEqual(middle([1, 2, 3, 4, 5, 6, 7, 8, 9, 11]), [5,6]);
-assertArraysEqual(middle([1, 2, 3, 4, 5]), [3]);
+// assertArraysEqual(middle([1, 2, 3, 4, 5, 6, 7, 8, 9, 11]), [5,6]);
+// assertArraysEqual(middle([1, 2, 3, 4, 5]), [3]);
+
+// const mary = { name: "Mary Sue" };
+// mary["name"] = "Mary Jane";
+// mary["age"]  = 22;
+// console.log(mary)
+
+module.exports=middle;
