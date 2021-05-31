@@ -1,16 +1,18 @@
 const assertEqual = require('./assertEqual');
 
 const eqArrays = function(firstArray, secondArray) {
+  let a = false;
+  let b = true;
   for (let x = 0; x < firstArray.length; x++) {
-
+    
     if (firstArray[x] === secondArray[x]) {
       continue;
     } else {
 
-      return false;
+      return a;
     }
   }
-  return true;
+  return b;
 };
 
 
