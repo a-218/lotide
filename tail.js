@@ -8,11 +8,12 @@ const tail = function(actual) {
     for (let x = 1; x < actual.length; x++) {
       newArray.push(actual[x]);
     }
-    return console.log(newArray);
+    return newArray;
   } else if (actual.length === 1 || actual.length === 0) {
-    return console.log([]);
+    return [];
   }
 };
 
 
+//console.log(tail(["Yo Yo", "Lighthouse", "Labs"]));
 module.exports = tail;
